@@ -1,4 +1,4 @@
-package ru.mirea.lab01;
+package ru.mirea.practice01;
 
 public class Ball {
     private int radius;

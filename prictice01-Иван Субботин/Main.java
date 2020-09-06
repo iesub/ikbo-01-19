@@ -1,6 +1,7 @@
-package ru.mirea.lab01;
+package ru.mirea.practice01;
 
-public class Lab01 {
+public class Main {
+
     public static void main(String[] args){
         Dog class1 = new Dog("Dogmeat", "Korgi");
         Ball class2 = new Ball(2,"Blue");
@@ -9,4 +10,5 @@ public class Lab01 {
         System.out.println(class2.toString());
         System.out.println(class3.toString());
     }
+
 }
