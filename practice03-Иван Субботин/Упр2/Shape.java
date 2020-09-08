@@ -1,9 +1,12 @@
 package ru.mirea.practice03.task02;
 
 public abstract class Shape {
-    protected String color = "white";
-    protected boolean filled = false;
-    public Shape(){};
+    protected String color;
+    protected boolean filled;
+    public Shape(){
+        this.color = "white";
+        this.filled = false;
+    };
     public Shape(String color, boolean filled){
         this.color = color;
         this.filled = filled;
@@ -20,8 +23,8 @@ public abstract class Shape {
     public void setFilled(boolean filled){
         this.filled = filled;
     }
-    abstract double getArea();
-    abstract double getPerimeter();
+    public abstract double getArea();
+    public abstract double getPerimeter();
     public String toString(){
         return("Color: " + color + " Is filled: " + filled);
     };

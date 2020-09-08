@@ -1,6 +1,6 @@
 package ru.mirea.practice03.task02;
 
-class Circle extends Shape {
+public class Circle extends Shape {
     protected double radius = 1;
     public Circle(){};
     public Circle(double radius){

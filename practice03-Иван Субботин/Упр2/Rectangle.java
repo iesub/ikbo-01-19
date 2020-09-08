@@ -1,6 +1,6 @@
 package ru.mirea.practice03.task02;
 
-class Rectangle extends Shape {
+public class Rectangle extends Shape {
     protected double width = 1;
     protected double length = 1;
     public Rectangle(){}
